@@ -1,6 +1,6 @@
 # Research Brief: [Project Name]
 
-**App/Product:** [e.g., Rabobank, DexScreener, Resolv]
+**App/Product:** [e.g., Apple, Google, Airbnb, ChatGPT]
 **Researcher:** [Your Name]
 **Date:** [YYYY-MM-DD]
 **Status:** Planning | In Progress | Complete
