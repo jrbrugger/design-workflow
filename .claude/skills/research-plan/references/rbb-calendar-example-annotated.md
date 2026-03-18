@@ -1,13 +1,13 @@
-# Annotated Example: Rabobank Calendar Widget Research Brief
+# Annotated Example: Calendar Widget Research Brief
 
-This is a real research brief for the Rabobank (RBB) Calendar Widget project, annotated with notes on what makes each section strong. Use this as a reference when writing your own briefs.
+This is a research brief for a Calendar Widget project at a regional business bank, annotated with notes on what makes each section strong. Use this as a reference when writing your own briefs.
 
 ---
 
 ## 1. Project Scope
 
 **Problem:**
-SME business owners using the Rabobank banking app lack visibility into upcoming financial events (tax deadlines, loan payments, invoice due dates). They currently rely on external calendars, sticky notes, or memory — leading to missed deadlines and late fees.
+SME business owners using the bank's mobile app lack visibility into upcoming financial events (tax deadlines, loan payments, invoice due dates). They currently rely on external calendars, sticky notes, or memory — leading to missed deadlines and late fees.
 
 **Why now:**
 Q1 2026 customer feedback surveys showed "financial planning" as the #2 unmet need for SME users. The product team is evaluating a calendar widget for the Q3 roadmap and needs research to validate the concept before committing engineering resources.
@@ -50,12 +50,12 @@ Q1 2026 customer feedback surveys showed "financial planning" as the #2 unmet ne
 
 ## 3. Target Group
 
-**Primary:** SME business owners (1–50 employees) who use Rabobank's business banking app at least weekly and manage their own financial administration.
+**Primary:** SME business owners (1–50 employees) who use the bank's business banking app at least weekly and manage their own financial administration.
 
 **Secondary:** Bookkeepers or financial administrators who manage finances on behalf of SME owners.
 
 **Recruitment criteria:**
-- Active Rabobank business banking customer
+- Active business banking customer
 - Business size: 1–50 employees
 - Manages own financial deadlines (or delegates to bookkeeper)
 - Uses the banking app at least 1x/week
@@ -84,7 +84,7 @@ Q1 2026 customer feedback surveys showed "financial planning" as the #2 unmet ne
 | 67% of SME users check the app 3+ times/week | App analytics | Q4 2025 |
 | "Financial planning" ranked #2 unmet need in SME segment | Customer survey (n=1,240) | Q1 2026 |
 | 34% of support calls relate to missed payment deadlines | Support ticket analysis | 2025 annual |
-| Average SME owner manages 12+ recurring financial events/month | Industry benchmark (ING research) | 2024 |
+| Average SME owner manages 12+ recurring financial events/month | Industry benchmark | 2024 |
 | Current app has no calendar or scheduling features | Product audit | Q1 2026 |
 
 ### Assumptions (to validate)
@@ -106,7 +106,7 @@ Q1 2026 customer feedback surveys showed "financial planning" as the #2 unmet ne
 
 ## 5. Main Research Question
 
-> How do SME business owners currently manage upcoming financial deadlines, and would a calendar widget in the Rabobank banking app meaningfully improve their financial planning workflow?
+> How do SME business owners currently manage upcoming financial deadlines, and would a calendar widget in the banking app meaningfully improve their financial planning workflow?
 
 > **✅ What makes this strong:**
 > - One sentence, two parts: current state + concept evaluation
