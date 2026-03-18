@@ -2,7 +2,7 @@
 
 **Structure and write UX research briefs with 11 sections.**
 
-A Claude Skill that turns a rough research idea into a complete, stakeholder-ready research brief. Built on principles from *Just Enough Research* by Erika Hall.
+A Claude Skill that turns a rough research idea into a complete, stakeholder-ready research brief.
 
 ---
 
