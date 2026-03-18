@@ -1,0 +1,7 @@
+{
+  "notion_data_source_id": "327eac60-25b7-80d4-8313-000b001015cc",
+  "default_app": "Rabobank",
+  "researcher_name": "Jack Brugger",
+  "default_team": "Design",
+  "apps": ["Rabobank", "DexScreener", "Resolv", "Qogita", "RegenOS"]
+}

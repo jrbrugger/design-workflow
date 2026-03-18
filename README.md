@@ -30,10 +30,25 @@ Target users are [segment].
 
 ## Getting Started
 
-1. Read `.claude/skills/research-plan/SKILL.md`
-2. Copy `research-brief-template.md` into Notion
-3. Run `/research-plan`
-4. Review `research-brief-checklist.md`
+1. [Set up Notion](docs/NOTION-SETUP.md) (one-time)
+2. Run `/research-plan`
+3. Answer 3–5 clarifying questions
+4. Review the generated brief
+5. Approve → auto-published to your Notion Research Repository
+
+---
+
+## Influences
+
+- *Just Enough Research* — Erika Hall
+- *Testing Business Ideas* — Strategyzer
+- *Interviewing Users* — Steve Portigal
+- *Quantifying the User Experience* — Jeff Sauro & James R. Lewis
+- *101 Design Methods* — Vijay Kumar
+- *Good Services* — Lou Downe
+- *Storytelling for User Experience* — Whitney Quesenbery & Kevin Brooks
+- *Visualizing Complexity* — Nicole Woolf & Andrea Sturze
+- [Research Gap Framework](https://raziaaliani.substack.com/p/research-gap-framework-workbook-you) — Razia Aliani
 
 ---
 
