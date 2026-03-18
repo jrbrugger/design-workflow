@@ -23,7 +23,8 @@ Target users are [segment].
 1. You describe your research context
 2. Claude asks 3–5 clarifying questions
 3. Claude generates a complete 11-section research brief
-4. You copy the output into Notion (or wherever you store research docs)
+4. You review and approve the brief
+5. Claude publishes to your Notion Research Repository and returns the URL
 
 ### Tips for Strong Prompts
 
@@ -288,9 +289,9 @@ Hypotheses make your assumptions explicit. Without them, confirmation bias creep
 
 ## Output Format
 
-The skill generates a complete research brief in markdown format with all 11 sections filled in. The output is designed to be:
+The skill generates a complete research brief in markdown format with all 11 sections filled in. After approval, the brief is automatically published to your Notion Research Repository with all properties mapped. The output is designed to be:
 
-- **Copy/paste ready** for Notion, Google Docs, or Confluence
+- **Auto-published** to Notion with structured properties and full brief content
 - **Stakeholder-friendly** language (no jargon without explanation)
 - **Actionable** — every section connects to decisions
 
@@ -316,10 +317,64 @@ The skill generates a complete research brief in markdown format with all 11 sec
 
 ---
 
+## Step 5: Publish to Notion
+
+After the user reviews and approves the research brief, publish it to their Notion Research Repository using the Notion MCP tools.
+
+### Configuration
+
+Load settings from `config.json` (in this skill's directory):
+
+```json
+{
+  "notion_data_source_id": "327eac60-25b7-80d4-8313-000b001015cc",
+  "default_app": "Rabobank",
+  "researcher_name": "Jack Brugger",
+  "default_team": "Design",
+  "apps": ["Rabobank", "DexScreener", "Resolv", "Qogita", "RegenOS"]
+}
+```
+
+### Publishing
+
+Use the Notion MCP `notion-create-pages` tool with the data source ID from config.
+
+### Property Mapping
+
+| # | Property | Type (Notion) | Source / Value |
+|---|----------|---------------|----------------|
+| 1 | **Title** | Title | Project name from the brief |
+| 2 | **App** | Select | Select — Rabobank, DexScreener, Resolv, Qogita, RegenOS |
+| 3 | **Research Type** | Select | Select — Generative, Descriptive, Evaluative, Causal, Concept Testing, Usability Testing, User Interviews, Competitive Analysis |
+| 4 | **Status** | Status | `Planning` |
+| 5 | **Main Research Question** | Text | From section 5 of the brief |
+| 6 | **Target Group** | Text | From section 3 of the brief |
+| 7 | **Success Metrics** | Text | From section 9 of the brief |
+| 8 | **Business Impact** | Select | Select — Higher Quality, More Sales, Lower Cost, Multiple |
+| 9 | **Timeline** | Text | From section 11 of the brief |
+| 10 | **Team/Tribe** | Text | From config `default_team` or ask user |
+| 11 | **Date Started** | Date | Today (YYYY-MM-DD) |
+| 12 | **Key Findings** | Text | Leave blank |
+| 13 | **Next Steps** | Text | Leave blank |
+
+### Page Content
+
+Include the full 11-section research brief as markdown in the page body.
+
+### After Publishing
+
+Return the Notion page URL to the user.
+
+### Fallback
+
+If the Notion MCP is unavailable or the connection fails, output the complete brief in markdown so the user can manually copy it into Notion.
+
+---
+
 ## References
 
 - `references/research-brief-template.md` — Blank template for copy/paste
-- `references/rbb-calendar-example-annotated.md` — Annotated real-world example (Rabobank Calendar Widget)
+- `references/rbb-calendar-example-annotated.md` — Annotated real-world example (Calendar Widget)
 - `references/research-brief-checklist.md` — 50+ validation items before sharing your brief
 
 ---
