@@ -2,7 +2,7 @@
 
 **Research-to-code automation for product designers.**
 
-A collection of reusable Claude Skills and templates for structured design workflows: research planning, analysis, synthesis, and component generation. Built on "Just Enough Research" principles by Erika Hall.
+A collection of reusable Claude Skills and templates for structured design workflows: research planning, analysis, synthesis, and component generation.
 
 Perfect for:
 - Designers who want to own end-to-end workflows (research → design → code)
