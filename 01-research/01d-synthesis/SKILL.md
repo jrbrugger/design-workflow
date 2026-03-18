@@ -1,3 +1,9 @@
+---
+name: research-synthesis
+description: >-
+  Transforms raw research data into structured insights through affinity clustering and pattern analysis. Use after data collection to find patterns and key findings. Triggers on: "synthesize research", "analyze interviews", "find patterns", "insight report", "research findings".
+---
+
 # 01d — Research Synthesis
 
 ## Purpose

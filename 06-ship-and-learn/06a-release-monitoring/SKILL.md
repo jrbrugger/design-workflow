@@ -1,3 +1,9 @@
+---
+name: release-monitoring
+description: >-
+  Tracks post-launch performance against success metrics defined in the design challenge. Use after feature release for 2-4 weeks. Triggers on: "monitor launch", "post-launch", "track metrics", "how is it performing", "release monitoring".
+---
+
 # 06a — Release Monitoring
 
 ## Purpose

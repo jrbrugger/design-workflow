@@ -1,3 +1,9 @@
+---
+name: research-validation
+description: >-
+  Quality gate that scores research confidence, checks for bias, and makes go/no-go decisions before design. Use after synthesis to validate research quality. Triggers on: "validate research", "research confidence", "ready for design", "bias check", "research quality".
+---
+
 # 01e — Research Validation
 
 ## Purpose

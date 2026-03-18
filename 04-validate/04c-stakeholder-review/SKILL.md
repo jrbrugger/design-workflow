@@ -1,3 +1,9 @@
+---
+name: stakeholder-review
+description: >-
+  Structures stakeholder presentation, collects feedback, and documents approval decisions. Use when designs need business sign-off before engineering. Triggers on: "stakeholder review", "get approval", "present to stakeholders", "sign-off", "design presentation".
+---
+
 # 04c — Stakeholder Review
 
 ## Purpose

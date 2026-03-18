@@ -1,3 +1,9 @@
+---
+name: prototype-testing
+description: >-
+  Plans and executes usability testing on design prototypes to validate the solution before handoff. Use when designs are ready for user validation. Triggers on: "usability test", "prototype testing", "test with users", "validate design", "user testing".
+---
+
 # 04a — Prototype Testing
 
 ## Purpose

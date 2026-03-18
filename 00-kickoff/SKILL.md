@@ -1,3 +1,9 @@
+---
+name: design-kickoff
+description: >-
+  Frames the design problem, aligns stakeholders, and sets up project infrastructure. Use when starting a new design project, feature initiative, or redesign. Triggers on: "kick off", "start a project", "new design project", "project brief", "stakeholder alignment".
+---
+
 # 00 — Project Kickoff
 
 ## Purpose

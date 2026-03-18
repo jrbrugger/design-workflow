@@ -1,3 +1,9 @@
+---
+name: design-concept-selection
+description: >-
+  Facilitates design crit and concept convergence to select one direction before production design. Use after ideation to lock a design direction. Triggers on: "concept selection", "design crit", "pick a direction", "lock concept", "which concept".
+---
+
 # 03d — Concept Selection
 
 ## Purpose

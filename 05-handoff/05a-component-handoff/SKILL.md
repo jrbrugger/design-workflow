@@ -1,3 +1,9 @@
+---
+name: component-handoff
+description: >-
+  Translates approved designs into engineering-ready specs including component props, interaction behavior, and tickets. Use when handing off designs to engineering. Triggers on: "handoff", "dev handoff", "engineering specs", "component specs", "create tickets".
+---
+
 # 05a — Component Handoff
 
 ## Purpose

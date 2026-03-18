@@ -1,3 +1,9 @@
+---
+name: research-gap-analysis
+description: >-
+  Audits existing knowledge and identifies research gaps by scoring assumptions on confidence and impact. Use when starting research, identifying unknowns, or when new information introduces uncertainty. Triggers on: "what do we know", "gap analysis", "research gaps", "audit assumptions", "what don't we know".
+---
+
 # 01a — Research Gap Analysis
 
 ## Purpose

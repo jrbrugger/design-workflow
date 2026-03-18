@@ -1,3 +1,9 @@
+---
+name: research-plan
+description: >-
+  Creates a structured research plan with methods, participants, timeline, and logistics. Use after gap analysis to plan how to close knowledge gaps. Triggers on: "research plan", "plan research", "interview plan", "how should we research", "study design".
+---
+
 # 01b — Research Plan
 
 ## Purpose

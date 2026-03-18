@@ -1,3 +1,9 @@
+---
+name: opportunity-framing
+description: >-
+  Prioritizes design opportunities by scoring user impact, business value, and feasibility. Use when deciding what to design first. Triggers on: "prioritize opportunities", "what should we design", "opportunity scoring", "scope the work", "size the opportunity".
+---
+
 # 02b — Opportunity Framing
 
 ## Purpose

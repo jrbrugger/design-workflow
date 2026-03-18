@@ -1,3 +1,9 @@
+---
+name: build-review
+description: >-
+  Compares engineering implementation against Figma designs to catch visual drift and spec deviations. Use after engineering completes implementation, before release. Triggers on: "build review", "visual QA", "design QA", "compare build", "implementation review".
+---
+
 # 05c — Build Review
 
 ## Purpose

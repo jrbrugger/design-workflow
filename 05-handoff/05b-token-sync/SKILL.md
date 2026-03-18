@@ -1,3 +1,9 @@
+---
+name: design-token-sync
+description: >-
+  Compares design tokens between Figma and code to detect drift and generate sync actions. Use before releases or on a regular cadence to keep tokens aligned. Triggers on: "token sync", "token drift", "compare tokens", "Figma vs code", "design variables".
+---
+
 # 05b — Token Sync
 
 ## Purpose

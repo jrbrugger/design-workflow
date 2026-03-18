@@ -1,3 +1,9 @@
+---
+name: design-pattern-research
+description: >-
+  Surveys existing UI patterns, interaction models, and design conventions relevant to the design challenge. Use at the start of design to ground ideation in existing solutions. Triggers on: "pattern research", "UI patterns", "how do others solve", "design references", "competitive UI".
+---
+
 # 03a — Pattern Research
 
 ## Purpose

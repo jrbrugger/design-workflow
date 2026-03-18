@@ -1,3 +1,9 @@
+---
+name: design-production
+description: >-
+  Guides production-ready Figma design including flows, states, edge cases, accessibility, and content specs. Use when creating final designs in Figma. Triggers on: "production design", "design in Figma", "edge cases", "design states", "UI copy", "accessibility check".
+---
+
 # 03e — Production Design
 
 ## Purpose

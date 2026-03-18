@@ -1,3 +1,9 @@
+---
+name: design-review
+description: >-
+  Internal quality check against the design challenge brief, accessibility standards, and edge case coverage. Use before stakeholder review to ensure craft quality. Triggers on: "design review", "design QA", "review checklist", "quality check", "design crit".
+---
+
 # 04b — Design Review
 
 ## Purpose

@@ -1,3 +1,9 @@
+---
+name: design-ideation
+description: >-
+  Generates multiple distinct solution concepts with tradeoff analysis before committing to a direction. Use after pattern research to explore the solution space. Triggers on: "ideation", "generate concepts", "explore solutions", "design concepts", "brainstorm approaches".
+---
+
 # 03c — Ideation
 
 ## Purpose

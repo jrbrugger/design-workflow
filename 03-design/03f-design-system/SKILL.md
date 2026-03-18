@@ -1,3 +1,9 @@
+---
+name: design-system-maintenance
+description: >-
+  Parallel track for auditing, extending, and governing the design system during feature work. Use when creating new components, checking token architecture, or maintaining the design system. Triggers on: "design system", "component audit", "token architecture", "promote component", "design tokens".
+---
+
 # 03f — Design System (Parallel Track)
 
 ## Purpose

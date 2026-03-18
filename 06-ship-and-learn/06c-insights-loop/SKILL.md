@@ -1,3 +1,9 @@
+---
+name: insights-loop
+description: >-
+  Feeds project learnings back into the org knowledge base and updates the playbook for next cycle. Use as the final step of any project to close the learning loop. Triggers on: "file insights", "close project", "archive project", "knowledge base", "next cycle".
+---
+
 # 06c — Insights Loop
 
 ## Purpose

@@ -1,3 +1,9 @@
+---
+name: problem-statement-lock
+description: >-
+  Finalizes and locks the problem statement with stakeholder sign-off before design begins. Use as the gate between Define and Design phases. Triggers on: "lock problem statement", "design brief", "design challenge", "problem definition", "start design".
+---
+
 # 02c — Problem Statement Lock
 
 ## Purpose

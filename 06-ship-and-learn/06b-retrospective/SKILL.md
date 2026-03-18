@@ -1,3 +1,9 @@
+---
+name: design-retrospective
+description: >-
+  Reflects on the entire project cycle to identify process improvements and update the playbook. Use after monitoring period ends. Triggers on: "retrospective", "retro", "what worked", "lessons learned", "project review".
+---
+
 # 06b — Retrospective
 
 ## Purpose

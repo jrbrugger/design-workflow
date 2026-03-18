@@ -1,3 +1,9 @@
+---
+name: research-data-collection
+description: >-
+  Executes research plans through interviews, analytics pulls, competitive analysis, and surveys. Use when conducting user interviews, competitive research, or gathering data. Triggers on: "interview guide", "competitive analysis", "collect data", "run interviews", "research session".
+---
+
 # 01c — Data Collection
 
 ## Purpose
