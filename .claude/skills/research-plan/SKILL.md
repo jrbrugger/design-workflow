@@ -1,3 +1,9 @@
+---
+name: research-plan
+description: >-
+  Structure and write UX research briefs with 11 sections, then auto-publish to Notion. Use when starting research, scoping a study, or writing a research brief. Triggers on: "research plan", "research brief", "plan research", "write a brief", "11-section brief".
+---
+
 # /research-plan
 
 **Structure and write UX research briefs with 11 sections.**
@@ -368,6 +374,34 @@ Return the Notion page URL to the user.
 ### Fallback
 
 If the Notion MCP is unavailable or the connection fails, output the complete brief in markdown so the user can manually copy it into Notion.
+
+---
+
+## Inputs
+
+- Prioritized research gaps (from `01a-gap-analysis`, if available)
+- Project timeline constraints (from `00-kickoff`, if available)
+- Team config (from `config/team-config.md`)
+
+## Integrations
+
+- **Notion**: Publish research brief to Research Repository (via MCP)
+- **Slack**: Post summary, get approval, coordinate recruitment
+- **Calendar**: Block time for research sessions
+- **Recruitment tool**: (Respondent, User Interviews, internal panel) Set up screener
+
+## Definition of Done
+
+- [ ] Research brief covers all 11 sections
+- [ ] Methods, timeline, and participants defined
+- [ ] User has reviewed and approved the brief
+- [ ] Brief published to Notion Research Repository (or markdown exported)
+
+## Customization Notes
+
+- For startups without a research budget: lean toward analytics review + guerrilla interviews
+- For enterprise: add compliance/legal review step for research involving customer data
+- Adjust sample sizes based on your context — 5 interviews is often enough for qualitative patterns
 
 ---
 

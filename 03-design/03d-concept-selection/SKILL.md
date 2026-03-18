@@ -1,5 +1,5 @@
 ---
-name: design-concept-selection
+name: 03d-concept-selection
 description: >-
   Facilitates design crit and concept convergence to select one direction before production design. Use after ideation to lock a design direction. Triggers on: "concept selection", "design crit", "pick a direction", "lock concept", "which concept".
 ---
@@ -22,7 +22,7 @@ Converge from multiple concepts to one direction. This is the design crit gate �
 
 ## Outputs
 - [ ] **Selected concept** with documented rationale
-- [ ] **Design direction doc** → `templates/design-direction.md`
+- [ ] **Design direction doc** → `assets/design-direction.md`
 - [ ] **Open questions** for production design to resolve
 - [ ] **Posted to Notion** as the authoritative design direction
 - [ ] **Slack announcement** — "Direction locked"
@@ -89,7 +89,7 @@ Full doc: [link]. Production design starts [date].'"
 - **Calendar**: Design crit meeting (if sync)
 
 ## Templates
-- `templates/design-direction.md`
+- `assets/design-direction.md`
 
 ## Definition of Done
 - [ ] All concepts reviewed by team (sync or async)

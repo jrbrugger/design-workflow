@@ -1,5 +1,5 @@
 ---
-name: release-monitoring
+name: 06a-release-monitoring
 description: >-
   Tracks post-launch performance against success metrics defined in the design challenge. Use after feature release for 2-4 weeks. Triggers on: "monitor launch", "post-launch", "track metrics", "how is it performing", "release monitoring".
 ---
@@ -23,7 +23,7 @@ Track how the design performs in production after launch. Designers often hand o
 - [ ] **Monitoring dashboard** or metric tracking setup
 - [ ] **Week 1 report** → initial signals
 - [ ] **Week 2-4 report** → trend confirmation
-- [ ] **Performance summary** → `templates/performance-summary.md`
+- [ ] **Performance summary** → `assets/performance-summary.md`
 - [ ] **Slack updates** at each checkpoint
 
 ## Steps
@@ -80,7 +80,7 @@ If meeting/exceeding target: Document what worked."
 
 ### 4. Performance summary
 ```
-Prompt: "Create a post-launch performance summary using templates/performance-summary.md:
+Prompt: "Create a post-launch performance summary using assets/performance-summary.md:
 - Feature: [name]
 - Launch date: [date]
 - Monitoring period: [weeks]
@@ -106,7 +106,7 @@ Full report: [link]. Feeds into retrospective.'"
 - **Linear/Jira**: Bug tickets for production issues
 
 ## Templates
-- `templates/performance-summary.md`
+- `assets/performance-summary.md`
 
 ## Definition of Done
 - [ ] Monitoring set up for all success metrics

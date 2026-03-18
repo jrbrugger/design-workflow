@@ -1,5 +1,5 @@
 ---
-name: design-moodboarding
+name: 03b-moodboarding
 description: >-
   Establishes visual direction through emotional attributes, references, and color/typography/spacing guidance. Use when a project involves significant visual design work. Triggers on: "moodboard", "visual direction", "design aesthetic", "look and feel", "style direction".
 ---
@@ -92,7 +92,7 @@ Feedback by [date] — this feeds into production design.'"
 - **Brand guidelines**: Reference existing brand docs
 
 ## Templates
-- `templates/moodboard-brief.md`
+- `assets/moodboard-brief.md`
 
 ## Definition of Done
 - [ ] Emotional attributes defined with rationale

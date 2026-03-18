@@ -1,5 +1,5 @@
 ---
-name: design-production
+name: 03e-production-design
 description: >-
   Guides production-ready Figma design including flows, states, edge cases, accessibility, and content specs. Use when creating final designs in Figma. Triggers on: "production design", "design in Figma", "edge cases", "design states", "UI copy", "accessibility check".
 ---
@@ -28,7 +28,7 @@ This is where the design gets made. Transform the selected concept into producti
 - [ ] **Responsive variants** (if applicable)
 - [ ] **Accessibility annotations** — focus order, aria labels, contrast ratios
 - [ ] **Prototype** — clickable for testing (04a) and review (04b)
-- [ ] **Design changelog** → `templates/design-changelog.md`
+- [ ] **Design changelog** → `assets/design-changelog.md`
 
 ## Steps
 
@@ -97,7 +97,7 @@ Prompt: "Create a design changelog entry for today's work:
 - Deviations from the original direction (if any) and why
 - New components created or modified
 - Open questions or items deferred
-Format as templates/design-changelog.md and post to Notion."
+Format as assets/design-changelog.md and post to Notion."
 ```
 
 ### 6. Prepare for validation
@@ -119,7 +119,7 @@ Prompt: "The design is ready for review. Prepare:
 - **Design system**: Component library reference
 
 ## Templates
-- `templates/design-changelog.md`
+- `assets/design-changelog.md`
 
 ## Definition of Done
 - [ ] All screens designed for happy path

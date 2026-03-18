@@ -1,5 +1,5 @@
 ---
-name: opportunity-framing
+name: 02b-opportunity-framing
 description: >-
   Prioritizes design opportunities by scoring user impact, business value, and feasibility. Use when deciding what to design first. Triggers on: "prioritize opportunities", "what should we design", "opportunity scoring", "scope the work", "size the opportunity".
 ---
@@ -20,7 +20,7 @@ Prioritize which problems to solve and size the opportunity. Takes the pain poin
 
 ## Outputs
 - [ ] **Opportunity backlog** → ranked list of design opportunities
-- [ ] **Opportunity canvas** for top 1-3 opportunities → `templates/opportunity-canvas.md`
+- [ ] **Opportunity canvas** for top 1-3 opportunities → `assets/opportunity-canvas.md`
 - [ ] **Scope recommendation** posted to Notion
 - [ ] **Slack update** with recommendation for PM alignment
 
@@ -82,7 +82,7 @@ Tag PM and stakeholders."
 - **Spreadsheet**: (Optional) Scoring matrix for larger backlogs
 
 ## Templates
-- `templates/opportunity-canvas.md`
+- `assets/opportunity-canvas.md`
 
 ## Definition of Done
 - [ ] All opportunities extracted from UX artifacts

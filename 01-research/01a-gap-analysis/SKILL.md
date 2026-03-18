@@ -1,5 +1,5 @@
 ---
-name: research-gap-analysis
+name: 01a-gap-analysis
 description: >-
   Audits existing knowledge and identifies research gaps by scoring assumptions on confidence and impact. Use when starting research, identifying unknowns, or when new information introduces uncertainty. Triggers on: "what do we know", "gap analysis", "research gaps", "audit assumptions", "what don't we know".
 ---
@@ -20,7 +20,7 @@ Before planning research, audit what we already know vs. what we're guessing. Th
 - Assumptions list from project brief
 
 ## Outputs
-- [ ] **Gap tracker** → `templates/gap-tracker.md` filled out
+- [ ] **Gap tracker** → `assets/gap-tracker.md` filled out
 - [ ] **Prioritized research questions** ranked by impact × uncertainty
 - [ ] **Gap analysis summary** posted to Notion project page
 - [ ] **Slack update** in project channel
@@ -77,7 +77,7 @@ Then post a short summary to the project Slack channel."
 - **Google Drive**: Check for prior research reports
 
 ## Templates
-- `templates/gap-tracker.md` — Assumption × Confidence × Impact matrix
+- `assets/gap-tracker.md` — Assumption × Confidence × Impact matrix
 
 ## Definition of Done
 - [ ] All assumptions from the project brief are logged in the gap tracker

@@ -1,5 +1,5 @@
 ---
-name: ux-artifact-creation
+name: 02a-ux-artifacts
 description: >-
   Creates JTBD statements, behavioral personas, journey maps, and mental models from research insights. Use when translating research into design-ready artifacts. Triggers on: "create personas", "jobs to be done", "journey map", "JTBD", "user artifacts", "mental model".
 ---
@@ -105,9 +105,9 @@ Biggest opportunity: [one-liner]. Review and flag questions by [date].'"
 - **Miro**: (Optional) Collaborative journey mapping with team
 
 ## Templates
-- `templates/jtbd-template.md`
-- `templates/persona-template.md`
-- `templates/journey-map-template.md`
+- `assets/jtbd-template.md`
+- `assets/persona-template.md`
+- `assets/journey-map-template.md`
 
 ## Definition of Done
 - [ ] 3-5 JTBD statements drafted and ranked

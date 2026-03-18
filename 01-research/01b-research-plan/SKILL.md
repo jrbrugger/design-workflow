@@ -1,5 +1,5 @@
 ---
-name: research-plan
+name: 01b-research-plan
 description: >-
   Creates a structured research plan with methods, participants, timeline, and logistics. Use after gap analysis to plan how to close knowledge gaps. Triggers on: "research plan", "plan research", "interview plan", "how should we research", "study design".
 ---
@@ -19,7 +19,7 @@ Turn prioritized research gaps into a concrete plan with methods, participants, 
 - Team config (from `config/team-config.md`)
 
 ## Outputs
-- [ ] **Research plan** → `templates/research-plan.md` filled out → posted to Notion
+- [ ] **Research plan** → `assets/research-plan.md` filled out → posted to Notion
 - [ ] **Recruitment criteria** defined (if interviews/testing needed)
 - [ ] **Research plan approved** by PM
 - [ ] **Slack update** with plan summary and timeline
@@ -43,7 +43,7 @@ Group methods that can be combined into single sessions."
 
 ### 2. Draft research plan
 ```
-Prompt: "Create a research plan using the template at templates/research-plan.md. Include:
+Prompt: "Create a research plan using the template at assets/research-plan.md. Include:
 - Research objectives (tied to gaps)
 - Methods selected with rationale
 - Participant criteria and sample size
@@ -80,7 +80,7 @@ Tag the PM and relevant stakeholders."
 - **Recruitment tool**: (Respondent, User Interviews, internal panel) Set up screener
 
 ## Templates
-- `templates/research-plan.md` — Full research plan template
+- `assets/research-plan.md` — Full research plan template
 
 ## Definition of Done
 - [ ] Research plan covers all prioritized gaps

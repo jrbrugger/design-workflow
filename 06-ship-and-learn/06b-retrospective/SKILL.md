@@ -1,5 +1,5 @@
 ---
-name: design-retrospective
+name: 06b-retrospective
 description: >-
   Reflects on the entire project cycle to identify process improvements and update the playbook. Use after monitoring period ends. Triggers on: "retrospective", "retro", "what worked", "lessons learned", "project review".
 ---
@@ -21,7 +21,7 @@ Reflect on the entire project cycle — process, collaboration, outcomes, and cr
 - All phase outputs as reference
 
 ## Outputs
-- [ ] **Retro document** → `templates/retro-doc.md`
+- [ ] **Retro document** → `assets/retro-doc.md`
 - [ ] **Process improvements** — specific changes to this playbook
 - [ ] **Lessons learned** — insights for future projects
 - [ ] **Posted to Notion** team knowledge base
@@ -80,7 +80,7 @@ This is how the playbook gets better over time."
 
 ### 4. Document and share
 ```
-Prompt: "Fill out the retro doc template at templates/retro-doc.md.
+Prompt: "Fill out the retro doc template at assets/retro-doc.md.
 Post to Notion in the team knowledge base (not just the project page — retros are org learning).
 Post summary to Slack:
 'Retro complete for [project].
@@ -107,7 +107,7 @@ Create a list of changes. I'll apply them to keep the playbook evolving."
 - **This playbook**: Direct updates to skill files based on learnings
 
 ## Templates
-- `templates/retro-doc.md`
+- `assets/retro-doc.md`
 
 ## Definition of Done
 - [ ] Self-reflection completed across all phases

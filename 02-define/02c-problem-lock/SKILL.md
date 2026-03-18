@@ -1,5 +1,5 @@
 ---
-name: problem-statement-lock
+name: 02c-problem-lock
 description: >-
   Finalizes and locks the problem statement with stakeholder sign-off before design begins. Use as the gate between Define and Design phases. Triggers on: "lock problem statement", "design brief", "design challenge", "problem definition", "start design".
 ---
@@ -20,7 +20,7 @@ Finalize and lock the problem statement before design begins. This is the last g
 
 ## Outputs
 - [ ] **Locked problem statement** → one paragraph, no ambiguity
-- [ ] **Design challenge brief** → `templates/design-challenge.md` filled out
+- [ ] **Design challenge brief** → `assets/design-challenge.md` filled out
 - [ ] **Posted to Notion** as the authoritative reference
 - [ ] **Slack announcement** — "Problem locked, design starting"
 - [ ] **Design tickets created** in project management tool
@@ -42,7 +42,7 @@ If it's ambiguous, it's not locked."
 
 ### 2. Create design challenge brief
 ```
-Prompt: "Fill out the design challenge brief template at templates/design-challenge.md.
+Prompt: "Fill out the design challenge brief template at assets/design-challenge.md.
 This is the single document a designer needs to start working. Include:
 - Locked problem statement
 - Success criteria
@@ -88,7 +88,7 @@ Prompt: "Create the following to prepare for design:
 - **Calendar**: Block design time
 
 ## Templates
-- `templates/design-challenge.md`
+- `assets/design-challenge.md`
 
 ## Definition of Done
 - [ ] Problem statement written — specific, measurable, bounded

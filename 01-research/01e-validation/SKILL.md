@@ -1,5 +1,5 @@
 ---
-name: research-validation
+name: 01e-validation
 description: >-
   Quality gate that scores research confidence, checks for bias, and makes go/no-go decisions before design. Use after synthesis to validate research quality. Triggers on: "validate research", "research confidence", "ready for design", "bias check", "research quality".
 ---
@@ -19,7 +19,7 @@ Quality gate before design begins. Score the research confidence, pressure-test 
 - Original research plan objectives
 
 ## Outputs
-- [ ] **Validation scorecard** → `templates/validation-scorecard.md` filled out
+- [ ] **Validation scorecard** → `assets/validation-scorecard.md` filled out
 - [ ] **Go/No-go decision** — proceed to Define, or loop back to Research
 - [ ] **Updated Notion project page** with validation status
 - [ ] **Slack update** with decision and rationale
@@ -88,7 +88,7 @@ Tag PM."
 - **Linear/Jira**: (Optional) Create tickets for remaining gaps if looping back
 
 ## Templates
-- `templates/validation-scorecard.md`
+- `assets/validation-scorecard.md`
 
 ## Gate Criteria
 | Score | Decision | Action |

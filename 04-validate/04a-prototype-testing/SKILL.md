@@ -1,5 +1,5 @@
 ---
-name: prototype-testing
+name: 04a-prototype-testing
 description: >-
   Plans and executes usability testing on design prototypes to validate the solution before handoff. Use when designs are ready for user validation. Triggers on: "usability test", "prototype testing", "test with users", "validate design", "user testing".
 ---
@@ -20,8 +20,8 @@ Validate the design with real users before handoff. Catch usability issues, conf
 - Success criteria (from `02c` design challenge brief)
 
 ## Outputs
-- [ ] **Usability test script** → `templates/test-script.md`
-- [ ] **Test findings** → `templates/test-findings.md`
+- [ ] **Usability test script** → `assets/test-script.md`
+- [ ] **Test findings** → `assets/test-findings.md`
 - [ ] **Severity-ranked issue list** with design recommendations
 - [ ] **Updated designs** (if critical issues found)
 - [ ] **Posted to Notion** and shared in Slack
@@ -41,7 +41,7 @@ Prompt: "Create a usability test plan for our prototype:
 - Format: moderated remote / in-person
 - Duration: 30 minutes per session
 
-Draft the full test script using templates/test-script.md."
+Draft the full test script using assets/test-script.md."
 ```
 
 ### 2. Recruit participants
@@ -88,7 +88,7 @@ Synthesize:
   - Cosmetic: Visual/copy polish
 - Positive signals (what worked well — don't only report problems)
 - Recommendations: For each issue, suggest a design fix
-Fill out templates/test-findings.md."
+Fill out assets/test-findings.md."
 ```
 
 ### 5. Prioritize and iterate
@@ -114,8 +114,8 @@ Updating designs for must-fix items before design review.'"
 - **Calendar**: Session time blocks
 
 ## Templates
-- `templates/test-script.md`
-- `templates/test-findings.md`
+- `assets/test-script.md`
+- `assets/test-findings.md`
 
 ## Definition of Done
 - [ ] 5 usability test sessions completed

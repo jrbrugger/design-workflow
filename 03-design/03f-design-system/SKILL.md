@@ -1,5 +1,5 @@
 ---
-name: design-system-maintenance
+name: 03f-design-system
 description: >-
   Parallel track for auditing, extending, and governing the design system during feature work. Use when creating new components, checking token architecture, or maintaining the design system. Triggers on: "design system", "component audit", "token architecture", "promote component", "design tokens".
 ---
@@ -26,7 +26,7 @@ Maintain, extend, and govern the design system as a parallel activity to feature
 - [ ] **Token updates** documented (new tokens, modified tokens, deprecated tokens)
 - [ ] **Component spec sheets** for new/modified components
 - [ ] **Breaking change log** if applicable
-- [ ] **Design system changelog** → `templates/ds-changelog.md`
+- [ ] **Design system changelog** → `assets/ds-changelog.md`
 
 ## Steps
 
@@ -79,7 +79,7 @@ Prompt: "Create a design system changelog entry:
 - Tokens added/modified/deprecated  
 - Breaking changes (anything that affects existing usage)
 - Migration notes (if breaking changes exist)
-Format as templates/ds-changelog.md. 
+Format as assets/ds-changelog.md. 
 Post to the design system Slack channel or the team sync channel."
 ```
 
@@ -92,8 +92,8 @@ Post to the design system Slack channel or the team sync channel."
 - **Notion**: Component documentation, design system wiki
 
 ## Templates
-- `templates/ds-changelog.md`
-- `templates/component-spec.md`
+- `assets/ds-changelog.md`
+- `assets/component-spec.md`
 
 ## Definition of Done
 - [ ] Component inventory audited for current project

@@ -1,5 +1,5 @@
 ---
-name: design-kickoff
+name: 00-kickoff
 description: >-
   Frames the design problem, aligns stakeholders, and sets up project infrastructure. Use when starting a new design project, feature initiative, or redesign. Triggers on: "kick off", "start a project", "new design project", "project brief", "stakeholder alignment".
 ---
@@ -21,8 +21,8 @@ Frame the problem, align stakeholders on scope, and set up project infrastructur
 - Any existing research or data
 
 ## Outputs
-- [ ] **Project brief** → `templates/project-brief.md` filled out → posted to Notion
-- [ ] **Stakeholder map** → `templates/stakeholder-map.md` filled out
+- [ ] **Project brief** → `assets/project-brief.md` filled out → posted to Notion
+- [ ] **Stakeholder map** → `assets/stakeholder-map.md` filled out
 - [ ] **Project channel** created in Slack
 - [ ] **Project page** created in Notion from hub template
 - [ ] **Kickoff summary** posted to Slack
@@ -39,7 +39,7 @@ Summarize what we know, what's ambiguous, and what's missing."
 ### 2. Draft project brief
 ```
 Prompt: "Using the context above, fill out the project brief template at 
-templates/project-brief.md. Flag any fields where we're making assumptions 
+assets/project-brief.md. Flag any fields where we're making assumptions 
 vs. working from evidence."
 ```
 
@@ -48,7 +48,7 @@ Review the brief. Edit anything that feels off. The brief should fit on one page
 ### 3. Map stakeholders
 ```
 Prompt: "Based on this project brief, fill out the stakeholder map at 
-templates/stakeholder-map.md. Identify: decision-maker, key influencers, 
+assets/stakeholder-map.md. Identify: decision-maker, key influencers, 
 subject matter experts, and who needs to be informed."
 ```
 

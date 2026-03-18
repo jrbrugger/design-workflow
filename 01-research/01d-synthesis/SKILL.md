@@ -1,5 +1,5 @@
 ---
-name: research-synthesis
+name: 01d-synthesis
 description: >-
   Transforms raw research data into structured insights through affinity clustering and pattern analysis. Use after data collection to find patterns and key findings. Triggers on: "synthesize research", "analyze interviews", "find patterns", "insight report", "research findings".
 ---
@@ -20,7 +20,7 @@ Transform raw research data into structured insights. This is where patterns eme
 - Survey responses
 
 ## Outputs
-- [ ] **Insight report** → `templates/insight-report.md` filled out → posted to Notion
+- [ ] **Insight report** → `assets/insight-report.md` filled out → posted to Notion
 - [ ] **Affinity clusters** — grouped themes with supporting evidence
 - [ ] **Key findings** — top 5-7 insights ranked by confidence and impact
 - [ ] **Updated gap tracker** — which gaps are now closed
@@ -59,7 +59,7 @@ This triangulation increases our confidence scores."
 
 ### 4. Draft insight report
 ```
-Prompt: "Synthesize everything into an insight report using templates/insight-report.md.
+Prompt: "Synthesize everything into an insight report using assets/insight-report.md.
 Structure as:
 - Executive summary (3 sentences max)
 - Top insights (5-7, each with: finding, evidence, confidence, implication)
@@ -85,7 +85,7 @@ for the project channel (5-bullet max)."
 - **Miro/FigJam**: (Optional) Visual affinity mapping for team workshops
 
 ## Templates
-- `templates/insight-report.md` — Structured findings report
+- `assets/insight-report.md` — Structured findings report
 
 ## Definition of Done
 - [ ] All raw data coded and clustered into themes
