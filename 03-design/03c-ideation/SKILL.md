@@ -1,5 +1,5 @@
 ---
-name: design-ideation
+name: 03c-ideation
 description: >-
   Generates multiple distinct solution concepts with tradeoff analysis before committing to a direction. Use after pattern research to explore the solution space. Triggers on: "ideation", "generate concepts", "explore solutions", "design concepts", "brainstorm approaches".
 ---
@@ -21,7 +21,7 @@ Generate multiple solution concepts before committing to one direction. Diverge 
 
 ## Outputs
 - [ ] **Concept sketches** → 3-5 distinct approaches (low-fidelity)
-- [ ] **Concept descriptions** → `templates/concept-sheet.md` for each
+- [ ] **Concept descriptions** → `assets/concept-sheet.md` for each
 - [ ] **Tradeoff matrix** → how concepts compare on key dimensions
 - [ ] **Posted to Figma/FigJam** for team review
 - [ ] **Shared in Slack** ahead of concept selection
@@ -87,7 +87,7 @@ Design crit: [day/time]. Async feedback welcome before then.'"
 - **Calendar**: (Optional) Schedule design crit session
 
 ## Templates
-- `templates/concept-sheet.md`
+- `assets/concept-sheet.md`
 
 ## Definition of Done
 - [ ] 3-5 distinct concepts generated (not variations of one idea)

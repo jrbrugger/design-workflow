@@ -1,5 +1,5 @@
 ---
-name: research-data-collection
+name: 01c-data-collection
 description: >-
   Executes research plans through interviews, analytics pulls, competitive analysis, and surveys. Use when conducting user interviews, competitive research, or gathering data. Triggers on: "interview guide", "competitive analysis", "collect data", "run interviews", "research session".
 ---
@@ -22,7 +22,7 @@ Execute the research plan: conduct interviews, pull analytics, run competitive a
 - [ ] **Raw interview notes** → stored in Notion or Google Drive
 - [ ] **Interview transcripts** (if recorded) → stored in project folder
 - [ ] **Analytics snapshots** → screenshots or exports in project folder
-- [ ] **Competitive analysis** → `templates/competitive-matrix.md`
+- [ ] **Competitive analysis** → `assets/competitive-matrix.md`
 - [ ] **Survey responses** → raw data exported
 
 ## Steps
@@ -30,7 +30,7 @@ Execute the research plan: conduct interviews, pull analytics, run competitive a
 ### 1. Prepare interview guide (if applicable)
 ```
 Prompt: "Based on our research objectives: [paste from research plan], 
-draft an interview guide using templates/interview-guide.md. 
+draft an interview guide using assets/interview-guide.md. 
 Structure it as:
 - Warm-up (2 min): build rapport
 - Context (5 min): understand their world
@@ -90,8 +90,8 @@ Create a summary index showing what data we collected, from whom, and when."
 - **Analytics tool**: (Amplitude, Mixpanel, GA) Pull relevant data
 
 ## Templates
-- `templates/interview-guide.md` — Semi-structured interview script
-- `templates/competitive-matrix.md` — Competitive analysis framework
+- `assets/interview-guide.md` — Semi-structured interview script
+- `assets/competitive-matrix.md` — Competitive analysis framework
 
 ## Definition of Done
 - [ ] All planned research sessions completed

@@ -1,5 +1,5 @@
 ---
-name: design-review
+name: 04b-design-review
 description: >-
   Internal quality check against the design challenge brief, accessibility standards, and edge case coverage. Use before stakeholder review to ensure craft quality. Triggers on: "design review", "design QA", "review checklist", "quality check", "design crit".
 ---
@@ -22,7 +22,7 @@ Internal quality check before showing stakeholders. Review the design against th
 - Design system guidelines
 
 ## Outputs
-- [ ] **Review checklist** → `templates/design-review-checklist.md` completed
+- [ ] **Review checklist** → `assets/design-review-checklist.md` completed
 - [ ] **Issue list** with severity and fix recommendations
 - [ ] **Updated designs** addressing review feedback
 - [ ] **Review sign-off** from design lead
@@ -33,7 +33,7 @@ Internal quality check before showing stakeholders. Review the design against th
 ### 1. Self-review against checklist
 ```
 Prompt: "Help me conduct a design review for [project]. 
-Go through each dimension in templates/design-review-checklist.md:
+Go through each dimension in assets/design-review-checklist.md:
 
 1. Problem alignment: Does the design solve the stated problem?
 2. JTBD coverage: Are all primary jobs served?
@@ -92,7 +92,7 @@ Prompt: "After applying review changes:
 - **Notion**: Update project status
 
 ## Templates
-- `templates/design-review-checklist.md`
+- `assets/design-review-checklist.md`
 
 ## Definition of Done
 - [ ] Self-review checklist completed — all dimensions pass or have documented exceptions

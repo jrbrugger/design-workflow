@@ -1,5 +1,5 @@
 ---
-name: component-handoff
+name: 05a-component-handoff
 description: >-
   Translates approved designs into engineering-ready specs including component props, interaction behavior, and tickets. Use when handing off designs to engineering. Triggers on: "handoff", "dev handoff", "engineering specs", "component specs", "create tickets".
 ---
@@ -20,7 +20,7 @@ Translate approved designs into engineering-ready specifications. This isn't jus
 - Technical constraints (from engineering)
 
 ## Outputs
-- [ ] **Handoff document** → `templates/handoff-doc.md` per feature/flow
+- [ ] **Handoff document** → `assets/handoff-doc.md` per feature/flow
 - [ ] **Component specs** — props, states, variants, behavior for each new component
 - [ ] **Interaction specs** — transitions, animations, conditional logic
 - [ ] **Figma dev mode** annotations (or equivalent)
@@ -129,8 +129,8 @@ Walkthrough: [meeting time or Loom link].
 - **Storybook**: (Optional) Link to existing component implementations
 
 ## Templates
-- `templates/handoff-doc.md`
-- `templates/component-spec.md`
+- `assets/handoff-doc.md`
+- `assets/component-spec.md`
 
 ## Definition of Done
 - [ ] Figma file cleaned and organized for dev mode

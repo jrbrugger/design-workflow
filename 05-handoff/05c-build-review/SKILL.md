@@ -1,5 +1,5 @@
 ---
-name: build-review
+name: 05c-build-review
 description: >-
   Compares engineering implementation against Figma designs to catch visual drift and spec deviations. Use after engineering completes implementation, before release. Triggers on: "build review", "visual QA", "design QA", "compare build", "implementation review".
 ---
@@ -21,7 +21,7 @@ Compare what engineering built against what was designed. Catch visual drift, in
 - Component specs and interaction specs
 
 ## Outputs
-- [ ] **Build review report** → `templates/build-review-report.md`
+- [ ] **Build review report** → `assets/build-review-report.md`
 - [ ] **Issue list** — visual diffs, interaction gaps, spec deviations
 - [ ] **Severity ratings** — blocking, major, minor, acceptable
 - [ ] **Engineering tickets** for fixes (if issues found)
@@ -129,7 +129,7 @@ Prompt: "Based on the build review:
 - **Browser DevTools**: Inspect spacing, colors, typography
 
 ## Templates
-- `templates/build-review-report.md`
+- `assets/build-review-report.md`
 
 ## Definition of Done
 - [ ] Visual comparison completed for all screens

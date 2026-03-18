@@ -1,5 +1,5 @@
 ---
-name: stakeholder-review
+name: 04c-stakeholder-review
 description: >-
   Structures stakeholder presentation, collects feedback, and documents approval decisions. Use when designs need business sign-off before engineering. Triggers on: "stakeholder review", "get approval", "present to stakeholders", "sign-off", "design presentation".
 ---
@@ -21,7 +21,7 @@ Get stakeholder sign-off on the design before engineering begins. This is a busi
 
 ## Outputs
 - [ ] **Stakeholder presentation** → structured walkthrough
-- [ ] **Feedback log** → `templates/feedback-log.md`
+- [ ] **Feedback log** → `assets/feedback-log.md`
 - [ ] **Decision: Approved / Approved with changes / Needs revision**
 - [ ] **Notion status update**
 - [ ] **Slack announcement** of decision
@@ -107,7 +107,7 @@ Tag PM and engineering lead."
 - **Google Meet/Zoom**: Meeting facilitation
 
 ## Templates
-- `templates/feedback-log.md`
+- `assets/feedback-log.md`
 
 ## Definition of Done
 - [ ] Stakeholder review conducted (sync or async)

@@ -61,7 +61,7 @@ Answer 3–5 clarifying questions → review the brief → approve → auto-publ
 ## Customization
 
 - Swap any integration by editing `config/integrations.md`
-- Add org-specific templates to any `templates/` folder
+- Add org-specific templates to any `assets/` folder
 - Add or remove skills within a phase — the structure is modular
 - Adjust gate thresholds in each validation skill
 
@@ -75,7 +75,7 @@ design-workflow/
 │   └── team-config.md                ← Roles, channels, cadence
 ├── 00-kickoff/
 │   ├── SKILL.md                      ← Kickoff workflow
-│   └── templates/
+│   └── assets/
 ├── 01-research/
 │   ├── 01a-gap-analysis/SKILL.md
 │   ├── 01b-research-plan/SKILL.md

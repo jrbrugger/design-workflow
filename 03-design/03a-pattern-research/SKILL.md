@@ -1,5 +1,5 @@
 ---
-name: design-pattern-research
+name: 03a-pattern-research
 description: >-
   Surveys existing UI patterns, interaction models, and design conventions relevant to the design challenge. Use at the start of design to ground ideation in existing solutions. Triggers on: "pattern research", "UI patterns", "how do others solve", "design references", "competitive UI".
 ---
@@ -21,7 +21,7 @@ Before designing from scratch, survey how others have solved similar problems. F
 
 ## Outputs
 - [ ] **Pattern library** → 15-25 relevant screenshots/references organized by pattern type
-- [ ] **Pattern analysis** → `templates/pattern-analysis.md` — what works, what doesn't, applicable patterns
+- [ ] **Pattern analysis** → `assets/pattern-analysis.md` — what works, what doesn't, applicable patterns
 - [ ] **Saved to Notion** under project design references
 - [ ] **Shared in Slack** for team visibility
 
@@ -90,7 +90,7 @@ Full reference: [Notion link]. Will feed into ideation.'"
 - **Figma**: (Optional) Screenshot collection in a reference frame
 
 ## Templates
-- `templates/pattern-analysis.md`
+- `assets/pattern-analysis.md`
 
 ## Definition of Done
 - [ ] 5-7 pattern types identified and researched
