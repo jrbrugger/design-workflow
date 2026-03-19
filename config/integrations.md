@@ -58,6 +58,66 @@ research_folder: ""                  # Folder ID for research artifacts
 design_assets_folder: ""             # Folder ID for exported assets
 ```
 
+## Analytics
+
+Product analytics platforms used in `01c-metrics` and `01d-synthesis`.
+Store credentials in `.env` (gitignored) — never hardcode here.
+
+```yaml
+analytics_primary: "mixpanel"           # Options: mixpanel, amplitude, posthog, ga4, heap, none
+
+mixpanel:
+  project_id: ""                        # MIXPANEL_PROJECT_ID env var
+  service_account_username: ""          # MIXPANEL_SERVICE_ACCOUNT_USERNAME env var
+  service_account_secret: ""            # MIXPANEL_SERVICE_ACCOUNT_SECRET env var
+  # Create: Mixpanel > Settings > Service Accounts > Create Service Account
+  # Role: Analyst (read-only is sufficient for research)
+
+amplitude:
+  api_key: ""                           # AMPLITUDE_API_KEY env var
+  secret_key: ""                        # AMPLITUDE_SECRET_KEY env var
+  # Found: Amplitude > Settings > Projects > [Project] > General
+
+posthog:
+  project_api_key: ""                   # POSTHOG_PROJECT_API_KEY env var
+  host: "https://app.posthog.com"       # Override for self-hosted instances
+
+ga4:
+  property_id: ""                       # GA4_PROPERTY_ID env var
+  # Auth via Application Default Credentials (ADC) or service account JSON
+
+heap:
+  app_id: ""                            # HEAP_APP_ID env var
+  api_key: ""                           # HEAP_API_KEY env var
+
+# On-chain analytics (crypto/DeFi)
+dune:
+  api_key: ""                           # DUNE_API_KEY env var
+  # https://dune.com/docs/api — free tier available
+
+event_dictionary: ""                    # Link to your analytics data dictionary / doc
+                                        # Knowing event names is required for metric queries
+```
+
+## Signal Mining Sources
+
+Used by `01-signal-mining` skill. Configure which sources are relevant for your product.
+
+```yaml
+signal_sources:
+  app_store_id: ""                      # iOS App Store ID (numeric, e.g. 284882215)
+  play_store_id: ""                     # Google Play package name (e.g. com.example.app)
+  reddit_subreddits:                    # Relevant communities for your product space
+    - ""
+    - ""
+  github_repos:                         # Org/repo pairs for GitHub Issues signal
+    - ""
+  g2_slug: ""                           # Product slug on G2 (from the URL)
+  capterra_slug: ""                     # Product slug on Capterra
+  discord_signal_skill: true            # Whether discord-signal-analysis skill is active
+  twitter_handle: ""                    # Product/brand Twitter handle to monitor
+```
+
 ## AI & Automation
 
 ```yaml

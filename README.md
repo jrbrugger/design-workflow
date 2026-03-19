@@ -20,7 +20,7 @@ Perfect for:
 | Phase | Folder | Skills | Gate |
 |-------|--------|--------|------|
 | 0. Kickoff | `00-kickoff/` | Problem brief, stakeholder alignment, project setup | Brief signed off |
-| 1. Research | `01-research/` | Gap analysis → Plan → Collect → Synthesize → Validate | Validation score ≥ 7/10 |
+| 1. Research | `01-research/` | Signal mining → Gap analysis → Plan → Collect + Metrics → Synthesize → Validate | Validation score ≥ 7/10 |
 | 2. Define | `02-define/` | UX artifacts → Opportunity framing → Problem lock | Problem statement locked |
 | 3. Design | `03-design/` | Patterns → Mood → Ideation → Concept lock → Production → Design system | Concept approved |
 | 4. Validate | `04-validate/` | Prototype testing → Design review → Stakeholder review | Stakeholder sign-off |
@@ -39,9 +39,11 @@ Perfect for:
 
 | Skill | What it does |
 |-------|-------------|
+| **[01-signal-mining](01-research/01-signal-mining/SKILL.md)** | Harvests passive signals from public sources (App Store, Reddit, HN, G2, GitHub Issues, Twitter/X) to cheaply close low-confidence assumptions before primary research. |
 | **[01a-gap-analysis](01-research/01a-gap-analysis/SKILL.md)** | Extracts every assumption from the project brief, scores each on confidence and impact, and ranks them by risk. Outputs a prioritized gap tracker. |
 | **[01b-research-plan](01-research/01b-research-plan/SKILL.md)** | Generates a complete 11-section research brief with methods, participants, timeline, and Notion publishing. The most detailed skill in the playbook. |
 | **[01c-data-collection](01-research/01c-data-collection/SKILL.md)** | Structures data gathering — interview guides, competitive matrices, survey design. Matches methods to research gaps. |
+| **[01c-metrics](01-research/01c-metrics/SKILL.md)** | Pulls behavioral analytics from Mixpanel, Amplitude, PostHog, or GA4 to answer research gaps with quantitative evidence. Runs alongside data collection. |
 | **[01d-synthesis](01-research/01d-synthesis/SKILL.md)** | Turns raw research data into patterns and insights via affinity mapping. Updates the gap tracker with validated/invalidated assumptions. |
 | **[01e-validation](01-research/01e-validation/SKILL.md)** | Quality gate before design begins. Pressure-tests insights for bias, scores research confidence, decides proceed or loop back. |
 
@@ -98,6 +100,10 @@ See the [Quick Start guide](QUICKSTART.md) for how to run any skill.
 3. Edit `config/team-config.md` — define roles, channels, and review cadence
 4. Walk through each skill's `SKILL.md` and adjust steps to your org
 
+**Analytics credentials:** See `config/integrations.md` → Analytics section. Store all secrets in `.env` (gitignored). Required for `01c-metrics` skill.
+
+**Signal mining setup:** See `config/integrations.md` → Signal Mining Sources section. Configure subreddits, GitHub repos, and app store IDs for your product.
+
 ### Per-project execution
 1. Start at `00-kickoff/SKILL.md`
 2. Follow each skill sequentially — the outputs of each skill are the inputs of the next
@@ -131,9 +137,11 @@ design-workflow/
 │   ├── SKILL.md
 │   └── assets/
 ├── 01-research/
+│   ├── 01-signal-mining/             ← Pre-research passive signal harvesting
 │   ├── 01a-gap-analysis/
 │   ├── 01b-research-plan/            ← Most detailed skill (11-section briefs + Notion)
 │   ├── 01c-data-collection/
+│   ├── 01c-metrics/                  ← Analytics API integration (parallel to data collection)
 │   ├── 01d-synthesis/
 │   └── 01e-validation/
 ├── 02-define/
